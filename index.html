@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie_BEM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1 class="header__title">
+            SLOGAN DUŻY
+            <h2 class="header__description">Slogan mały</h2>
+        </h1>
+        <button class="btn header__btn">Wejdź</button>
+    </div>
+    <!-- Nav -->
+    <nav class="nav">
+    <p class="nav__logo">Nazwa Firmy</p>
+    <ul class="nav__list">
+        <li class="nav__list-element">File</li>
+        <li class="nav__list-element nav__list-element--active">Edit</li>
+        <li class="nav__list-element">View</li>
+        <li class="nav__list-element">Help</li>
+    </ul>
+    </nav>
+    <!-- Search -->
+    <div class="search">
+        <input type="text" class="search__input">
+        <button class="btn search__btn">Szukaj</button>
+    </div>
+    <!-- Article -->
+    <article class="article">
+        <h2 class="article__title">Tytuł artykułu</h2>
+        <h3 class="article__author">Data publikacji 20.07.2019 Autor: Jan Nowak</h3>
+        <p class="article__description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <button class="btn article__btn">Czytaj Dalej</button>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__list-element">Copyright</li>
+            <li class="footer__list-element">Adres : xxx.xxx.xxx</li>
+        </ul>
+    </footer>
+</body>
+</html>
